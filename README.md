@@ -22,5 +22,5 @@ This is a Virtual Healthcare Chatbot built using **Natural Language Processing (
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/virtual-healthcare-chatbot.git
+[git clone https://github.com/yourusername/virtual-healthcare-chatbot.git](https://github.com/Abhilesh-Vaka/HealthCare-ChatBot)
 cd virtual-healthcare-chatbot
