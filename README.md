@@ -24,3 +24,14 @@ This is a Virtual Healthcare Chatbot built using **Natural Language Processing (
 ```bash
 [git clone https://github.com/yourusername/virtual-healthcare-chatbot.git](https://github.com/Abhilesh-Vaka/HealthCare-ChatBot)
 cd virtual-healthcare-chatbot
+### 2. Install Required dependencies
+```bash
+pip install -r requirements.txt
+### 3. Run the application
+```bash
+python app.py
+### 4. Accessing the web interface
+```arduino
+http://127.0.0.1:5000/
+
+
