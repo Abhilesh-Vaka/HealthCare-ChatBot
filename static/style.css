@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.user-msg, .bot-msg {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.user-msg {
+    background-color: #a07855ff;
+    text-align: right;
+}
+
+.bot-msg {
+    background-color: #d4b996ff;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #df5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f10404;
+}
